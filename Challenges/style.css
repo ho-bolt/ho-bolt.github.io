@@ -1,0 +1,97 @@
+.hidden{
+display: none;
+}
+
+#clock{
+position: absolute;
+left:50%;
+top:50%;
+transform: translate(-50%,-50%);
+font-size: 100px;
+
+}
+body{
+    width: auto;
+    height: 100vh;
+    margin: 0;
+    z-index: -1;
+    background-size: cover;
+}
+#clock >#calender{
+    font-size: 30px;
+    margin: auto;
+}
+#weather{
+    position: absolute;
+    bottom: 0;
+    top:10%;
+    right: 0px;
+    left:80%;
+    width: 300px;
+    color: bisque;
+    
+}
+h2,#clock,#weather,#quote,#ToDoList,span{
+    font-family: 'Nunito', sans-serif;
+}
+
+#ToDoForm >#in{
+
+    position: absolute;
+    left:50%;
+    top:80%;
+    transform: translate(-50%,-50%);
+
+   
+    border:none;
+    border-bottom: solid 2px tomato;
+    outline: none;
+    outline: none;
+ 
+    font-size: 15px;
+    width: 45%;
+    height: 20px;
+}
+
+
+body, select, textarea, button,ul {
+    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+
+#loginForm{
+    position: absolute;
+    left:50%;
+    top:30%;
+    transform: translate(-50%,-50%);
+}
+#quote{
+    position: absolute;
+    bottom: 0px;
+    width: 400px;
+    left: 45%;
+    top:100%;
+    color: blanchedalmond;
+}
+#quote>#author{
+    padding-left: 150px;
+}
+#loginForm,h2{
+    margin: 0;
+    padding: 0;
+}
+#NameArea{
+    position: absolute;
+    left:50%;
+    top:30%;
+    transform: translate(-50%,-50%);
+}
+ul{
+    position: absolute;
+    left:45%;
+    top:80%;
+    list-style: none;  
+    font-family: 'Nunito', sans-serif;
+    color: aliceblue;
+
+}

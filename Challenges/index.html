@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_ToDoList</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <form id="loginForm">
+        <input type="text" placeholder="what is your name?" required>
+        <input type="submit" value="login">
+    </form>
+  <h2 id="NameArea" class="hidden"></h2>
+    
+    <div id="clock">
+        <span id="calender"></span><br>
+        <span></span>
+    </div>
+
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+        <div id="quote">
+            <span></span><br>
+            <span id="author"></span>
+       </div>
+        <form id="ToDoForm">
+            <input id="in" type="text" placeholder="Write your To Do" required>
+            
+        </form>
+        <ul id="ToDoList">
+
+        </ul>
+        
+    <script src="JS/clock.js"></script>    
+    <script src="JS/login.js"></script>    
+    <script src="JS/background.js"></script>    
+    <script src="JS/todoList.js"></script>    
+    <script src="JS/weather.js"></script>    
+    <script src="JS/quote.js"></script>    
+</div>
+</body>
+</html>
